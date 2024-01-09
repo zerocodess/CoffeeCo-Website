@@ -1,0 +1,44 @@
+@import url(sections/header.css);
+@import url(sections/about.css);
+
+:root {
+    --primary-color: #333333;
+    --secondary-color: rgb(85, 61, 46);
+    --third-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    cursor: url(/assets/circle-16.png), auto;
+}
+
+body {
+    margin-right: 50px;
+    color: var(--primary-color);
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
