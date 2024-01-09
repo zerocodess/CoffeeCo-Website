@@ -3,7 +3,7 @@
 
 :root {
     --primary-color: #333333;
-    --secondary-color: rgb(85, 61, 46);
+    --secondary-color: rgb(194, 110, 58);
     --third-color: #fff;
 }
 
@@ -16,7 +16,6 @@
 }
 
 body {
-    margin-right: 50px;
     color: var(--primary-color);
     font-family: 'Quicksand', sans-serif;
 }
