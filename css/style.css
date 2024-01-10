@@ -1,5 +1,6 @@
 @import url(sections/header.css);
 @import url(sections/about.css);
+@import url(sections/roastery.css);
 
 :root {
     --primary-color: #333333;
@@ -27,7 +28,7 @@ header {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--primary-color);
 }
 
 .flex-center {
