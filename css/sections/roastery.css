@@ -54,6 +54,42 @@
     line-height: 36px;
 }
 
+.philosophy-table {
+    width: 35%;
+    height: 150px;
+
+    border-collapse: collapse;
+
+    color: var(--primary-color);
+    text-align: center;
+  }
+  
+.philosophy-table td {
+    border-width: 1px;
+    border-color: #E0E0E0;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-style: solid;
+    padding: 14px;
+  }
+
+  .philosophy-table td:first-child {
+    border-right: 1px solid #E0E0E0;
+  }
+
+  .philosophy-table h6 {
+    color: #8f8f8f;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .philosophy-table p {
+    font-size: 10px;
+    color: #8f8f8f;
+  }
+
+  
+
 .button {
     background-color: #ffffff;
     border: none;
