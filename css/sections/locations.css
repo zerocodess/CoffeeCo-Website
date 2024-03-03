@@ -1,0 +1,6 @@
+.column img {
+  width: 80%;
+  height: 100vh;
+  bottom: 0;
+  object-fit: cover;
+}

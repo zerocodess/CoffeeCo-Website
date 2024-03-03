@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Website</title>
-
     <!-- Importing Google-fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,13 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
     <!-- favicon -->
     <link rel="icon" type="image/png" href="/assets/Coffee_logo.png" />
-
     <!-- Main-CSS -->
     <link rel="stylesheet" href="/css/style.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
 
@@ -33,19 +29,25 @@
 
       <!-- Navbar-Start -->
       <div class="column">
-        <nav class="roastery__navbar">
-          <ul class="roastery__menu">
+        <nav class="navbar">
+          <ul class="menu">
             <li><a href="/html/index.html">home</a></li>
             <li><a href="/html/about.html">about</a></li>
             <li><a href="#">roastery</a></li>
-            <li><a href="#locations">locations</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="/html/locations.html">locations</a></li>
+            <li><a href="/html/contact.html">contact</a></li>
           </ul>
         </nav>
       </div>
       <!-- Navbar-End -->
 
       <div class="column text">
+        <!-- Breadcrumb-Navigation-Start -->
+        <div class="breadcrumb">
+          <p style="color: var(--secondary-color)">ROASTERY</p>
+        </div>
+        <!-- Breadcrumb-Navigation-End -->
+
         <h2>Philosophy</h2>
         <p>
           Roasting coffee is both an art and a science. Every bean variety that arrives to our Roastery is put through
@@ -59,11 +61,11 @@
           <tbody>
             <tr>
               <td>
-                <h6>BEANS FROM</h6>
+                <h5>BEANS FROM</h5>
                 South/Central America & Africa
               </td>
               <td>
-                <h6>STRICT SELECTION</h6>
+                <h5>STRICT SELECTION</h5>
                 88-90%
                 <p>of original green beans used in end product only</p>
               </td>
