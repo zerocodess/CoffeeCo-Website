@@ -2,6 +2,7 @@
 @import url(sections/about.css);
 @import url(sections/roastery.css);
 @import url(sections/locations.css);
+@import url(sections/contact.css);
 
 :root {
   --primary-color: #333333;
@@ -88,7 +89,7 @@ a {
 }
 
 .column p {
-  margin: 0;
+  margin-right: 10px;
   font-size: 1.2em;
   font-weight: 400;
   line-height: 36px;

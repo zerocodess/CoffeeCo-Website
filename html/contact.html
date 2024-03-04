@@ -3,7 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Coffee Website</title>
+    <!-- Importing Google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="/assets/Coffee_logo.png" />
+    <!-- Main-CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
-  <body></body>
+
+  <body>
+    <!-- Contact-Section-Start -->
+    <div class="row">
+      <div class="column">
+        <img src="/assets/contact.jpg" alt="A talking man" />
+      </div>
+
+      <!-- Navbar-Start -->
+      <div class="column">
+        <nav class="navbar">
+          <ul class="menu">
+            <li><a href="/html/index.html">home</a></li>
+            <li><a href="/html/about.html">about</a></li>
+            <li><a href="/html/roastery.html">roastery</a></li>
+            <li><a href="/html/locations.html">locations</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Navbar-End -->
+
+      <div class="column text">
+        <!-- Breadcrumb-Navigation-Start -->
+        <div class="breadcrumb">
+          <p style="color: var(--secondary-color)">CONTACT</p>
+        </div>
+        <!-- Breadcrumb-Navigation-End -->
+
+        <h2>Contact Us</h2>
+
+        <div class="contact-form">
+          <form action="">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" />
+
+            <label for="email">Your email adress</label>
+            <input type="text" name="email" id="email" required="" />
+
+            <label for="message">Your message</label>
+            <textarea name="message" id="message" cols="30" rows="10" required=""></textarea>
+
+            <input type="submit" value="Send Message" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Curation-Section-End -->
+
+    <!-- Footer-Section -->
+    <footer>
+      <p class="copyright">&copy; Coffee | All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
